@@ -1,0 +1,16 @@
+{
+  "autoload" : {
+    "psr-4": {
+      "BS\\SignHere\\Tests\\" : "tests/phpunit",
+      "BS\\SignHere\\" : "src"
+    }
+  },
+  "require-dev": {
+    "jakub-onderka/php-parallel-lint": "0.9.2"
+  },
+  "scripts": {
+    "test": [
+      "parallel-lint . --exclude vendor"
+    ]
+  }
+}
