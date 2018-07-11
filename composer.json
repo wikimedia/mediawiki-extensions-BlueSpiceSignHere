@@ -1,5 +1,5 @@
 {
-	"name": "mediawiki/blue-spice-sign-here",
+	"name": "bluespice/signhere",
 	"type": "mediawiki-extension",
 	"description": "Provides a tag to quickly add a signature to a page",
 	"license": "GPL-3.0-only",
@@ -20,5 +20,8 @@
 		"test": [
 			"parallel-lint . --exclude vendor"
 		]
+	},
+	"extra": {
+		"installer-name": "BlueSpiceSignHere"
 	}
 }
