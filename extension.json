@@ -30,7 +30,8 @@
 		"ext.blueSpice.signHere.styles": {
 			"styles": [
 				"ext.blueSpice.signHere.less"
-			]
+			],
+			"class": "\\BlueSpice\\ResourceModule\\LessVars"
 		}
 	},
 	"load_composer_autoloader": true,
