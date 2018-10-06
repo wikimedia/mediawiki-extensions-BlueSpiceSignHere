@@ -1,6 +1,6 @@
 <?php
 
-namespace BS\SignHere\Hook;
+namespace BlueSpice\SignHere\Hook;
 
 class ParserFirstCallInit {
 
@@ -10,7 +10,7 @@ class ParserFirstCallInit {
 	 * @return boolean
 	 */
 	public static function handle( &$parser ) {
-		$signHereTag = new \BS\SignHere\Tag\SignHere();
+		$signHereTag = new \BlueSpice\SignHere\Tag\SignHere();
 		$parser->setHook( 'signhere', [ $signHereTag, 'render' ] );
 		$parser->setHook( 'bs:signhere', [ $signHereTag, 'render' ] );
 		return true;

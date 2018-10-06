@@ -8,8 +8,8 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"BS\\SignHere\\Tests\\": "tests/phpunit",
-			"BS\\SignHere\\": "src"
+			"BlueSpice\\SignHere\\Tests\\": "tests/phpunit",
+			"BlueSpice\\SignHere\\": "src"
 		}
 	},
 	"require-dev": {

@@ -8,11 +8,30 @@
 	"url": "https://help.bluespice.com/wiki/BlueSpiceSignHere",
 	"descriptionmsg": "bs-signhere-desc",
 	"type": "bluespice",
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpiceSignHere": {
+					"className": "\\BlueSpice\\SignHere\\Extension",
+					"extPath": "/BlueSpiceSignHere"
+				}
+			}
+		},
+		"BlueSpiceVisualEditorConnector": {
+			"TagDefinitions": [
+				"ext.bluespice.signhere.visualEditorTagDefinition"
+			]
+		}
+	},
 	"MessagesDirs": {
 		"BlueSpiceSignHere": [ "i18n" ]
 	},
+	"AutoloadNamespaces": {
+		"BlueSpice\\SignHere\\": "src/"
+	},
 	"Hooks": {
-		"ParserFirstCallInit": "BS\\SignHere\\Hook\\ParserFirstCallInit::handle"
+		"ParserFirstCallInit": "BlueSpice\\SignHere\\Hook\\ParserFirstCallInit::handle",
+		"BSInsertMagicAjaxGetData": "\\BlueSpice\\SignHere\\Hook\\BSInsertMagicAjaxGetData\\SignHere::callback"
 	},
 	"ResourceFileModulePaths": {
 		"localBasePath": "resources",
@@ -32,6 +51,15 @@
 				"ext.blueSpice.signHere.less"
 			],
 			"class": "\\BlueSpice\\ResourceModule\\LessVars"
+		},
+		"ext.bluespice.signhere.visualEditorTagDefinition": {
+			"scripts": [
+				"bs.sgnhr/util/tag/SignHereDefinition.js"
+			],
+			"messages": [
+				"bs-signhere-tag-signhere-desc",
+				"bs-signhere-tag-signhere-title"
+			]
 		}
 	},
 	"load_composer_autoloader": true,

@@ -1,6 +1,6 @@
 <?php
 
-namespace BS\SignHere\Tag;
+namespace BlueSpice\SignHere\Tag;
 
 class SignHere {
 	protected static $counter = 0;
