@@ -24,7 +24,7 @@
 			});
 
 			var editPageAPI = new mw.Api();
-			editPageAPI.postWithToken( 'edit', {
+			editPageAPI.postWithToken( 'csrf', {
 				'action': 'edit',
 				'pageid': pageId,
 				'text': newContent,
