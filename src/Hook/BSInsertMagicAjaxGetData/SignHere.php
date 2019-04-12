@@ -11,7 +11,6 @@ class SignHere extends BSInsertMagicAjaxGetData {
 	}
 
 	protected function doProcess() {
-
 		$descriptor = new \stdClass();
 		$descriptor->id = 'bs:signhere';
 		$descriptor->type = 'tag';

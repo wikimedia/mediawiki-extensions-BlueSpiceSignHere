@@ -6,8 +6,8 @@ class ParserFirstCallInit {
 
 	/**
 	 *
-	 * @param \Parser $parser
-	 * @return boolean
+	 * @param \Parser &$parser
+	 * @return bool
 	 */
 	public static function handle( &$parser ) {
 		$signHereTag = new \BlueSpice\SignHere\Tag\SignHere();
