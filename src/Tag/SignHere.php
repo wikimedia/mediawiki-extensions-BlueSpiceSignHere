@@ -35,4 +35,3 @@ class SignHere {
 		return $html;
 	}
 }
-
