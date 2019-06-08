@@ -9,7 +9,10 @@
 	"descriptionmsg": "bs-signhere-desc",
 	"type": "bluespice",
 	"requires": {
-		"MediaWiki": ">= 1.31.0"
+		"MediaWiki": "~1.31",
+		"extensions": {
+			"BlueSpiceFoundation": "~3.1"
+		}
 	},
 	"attributes": {
 		"BlueSpiceFoundation": {
