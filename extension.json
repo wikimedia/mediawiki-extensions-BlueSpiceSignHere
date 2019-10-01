@@ -1,6 +1,6 @@
 {
 	"name": "BlueSpiceSignHere",
-	"version": "3.0.1",
+	"version": "3.1.0",
 	"license-name": "GPL-3.0-only",
 	"author": [
 		"Robert Vogel"
@@ -8,6 +8,12 @@
 	"url": "https://en.wiki.bluespice.com/wiki/Reference:SignHere",
 	"descriptionmsg": "bs-signhere-desc",
 	"type": "bluespice",
+	"requires": {
+		"MediaWiki": "~1.31",
+		"extensions": {
+			"BlueSpiceFoundation": "~3.1"
+		}
+	},
 	"attributes": {
 		"BlueSpiceFoundation": {
 			"Extensions": {
