@@ -19,7 +19,7 @@ class SignHere extends BSInsertMagicAjaxGetData {
 		$descriptor->code = '<bs:signhere />';
 		$descriptor->previewable = false;
 		$descriptor->mwvecommand = 'signHereCommand';
-		$descriptor->helplink = $this->getServices()->getBSExtensionFactory()
+		$descriptor->helplink = $this->getServices()->getService( 'BSExtensionFactory' )
 			->getExtension( 'BlueSpiceSignHere' )->getUrl();
 		$this->response->result[] = $descriptor;
 
