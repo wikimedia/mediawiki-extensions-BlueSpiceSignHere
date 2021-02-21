@@ -48,7 +48,7 @@
 			"scripts": [
 				"ext.blueSpice.signHere.js"
 			],
-			"messages" :[
+			"messages": [
 				"bs-signhere-edit-summary"
 			]
 		},
