@@ -14,8 +14,8 @@ class SignHere {
 	 * @return string
 	 */
 	public function render( $input, $args, $parser, $frame ) {
-		$parser->getOutput()->addModuleStyles( 'ext.blueSpice.signHere.styles' );
-		$parser->getOutput()->addModules( 'ext.blueSpice.signHere' );
+		$parser->getOutput()->addModuleStyles( [ 'ext.blueSpice.signHere.styles' ] );
+		$parser->getOutput()->addModules( [ 'ext.blueSpice.signHere' ] );
 
 		$html = \Html::rawElement(
 			'div',
