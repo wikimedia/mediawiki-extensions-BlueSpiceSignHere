@@ -4,7 +4,7 @@
 	"description": "Provides a tag to quickly add a signature to a page",
 	"license": "GPL-3.0-only",
 	"require": {
-		"composer/installers": "~1.0"
+		"composer/installers": "~1.0|~2"
 	},
 	"autoload": {
 		"psr-4": {
