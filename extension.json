@@ -27,6 +27,13 @@
 			"TagDefinitions": [
 				"ext.bluespice.signhere.visualEditorTagDefinition"
 			]
+		},
+		"ContentDroplets": {
+			"Droplets": {
+				"sign-here": {
+					"class": "\\BlueSpice\\SignHere\\ContentDroplets\\SignHereDroplet"
+				}
+			}
 		}
 	},
 	"MessagesDirs": {
