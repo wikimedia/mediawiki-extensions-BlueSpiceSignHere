@@ -40,5 +40,11 @@
 		$(this).find( '.bs-signhere-icon' ).addClass( 'bs-signhere-spin' );
 		_sign( mw.config.get( 'wgArticleId' ), $(this).data( 'bs-counter' ) );
 	} );
+	$(d).on( 'keyup', '.bs-signhere', function( e ) {
+		if(( e.keyCode == 13 ) || ( e.keyCode == 32 )) {
+			$(this).find( '.bs-signhere-icon' ).addClass( 'bs-signhere-spin' );
+			_sign( mw.config.get( 'wgArticleId' ), $(this).data( 'bs-counter' ) );
+		}
+	} );
 
 })( mediaWiki, jQuery, document );
