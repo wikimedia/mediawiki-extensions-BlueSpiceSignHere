@@ -8,6 +8,7 @@
 	"bs-signhere-signatures": "Signatures",
 	"bs-signhere-edit-summary": "Added signature",
 	"bs-signhere-tooltip": "Click here to add your signature above the line",
+	"bs-signhere-arialabel": "Add signature",
 	"bs-signhere-tag-signhere-title": "Signatures",
 	"bs-signhere-tag-signhere-desc": "Adds a button to sign this page"
 }
