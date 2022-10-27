@@ -22,7 +22,8 @@ class SignHere {
 			[
 				'class' => 'bs-signhere',
 				'title' => wfMessage( 'bs-signhere-tooltip' )->plain(),
-				'data-bs-counter' => self::$counter++
+				'data-bs-counter' => self::$counter++,
+				'tabindex' => '0'
 			],
 			\Html::element(
 				'i',
