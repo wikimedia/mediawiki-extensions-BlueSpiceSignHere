@@ -32,5 +32,10 @@
 	},
 	"extra": {
 		"installer-name": "BlueSpiceSignHere"
+	},
+	"config": {
+		"allow-plugins": {
+			"composer/installers": true
+		}
 	}
 }
