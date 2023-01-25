@@ -4,7 +4,6 @@ namespace BlueSpice\SignHere\ContentDroplets;
 
 use MediaWiki\Extension\ContentDroplets\Droplet\TagDroplet;
 use Message;
-use RawMessage;
 
 class SignHereDroplet extends TagDroplet {
 
@@ -12,21 +11,21 @@ class SignHereDroplet extends TagDroplet {
 	 * @inheritDoc
 	 */
 	public function getName(): Message {
-		return new RawMessage( 'Sign here' );
+		return Message::newFromKey( 'bs-signhere-droplet-name' );
 	}
 
 	/**
 	 * @inheritDoc
 	 */
 	public function getDescription(): Message {
-		return new RawMessage( "Sign here description" );
+		return Message::newFromKey( 'bs-signhere-droplet-description' );
 	}
 
 	/**
 	 * @inheritDoc
 	 */
 	public function getIcon(): string {
-		return 'signature';
+		return 'droplet-signhere';
 	}
 
 	/**
