@@ -69,6 +69,7 @@
 			"scripts": [
 				"bs.sgnhr/util/tag/SignHereDefinition.js"
 			],
+			"styles": "ext.bluespice.signHere.droplet.css",
 			"messages": [
 				"bs-signhere-tag-signhere-desc",
 				"bs-signhere-tag-signhere-title"
