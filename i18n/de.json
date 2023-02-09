@@ -10,5 +10,7 @@
 	"bs-signhere-tooltip": "Hier klicken, um oberhalb der Linie eine Unterschrift einzufügen",
 	"bs-signhere-arialabel": "Unterschrift hinzufügen",
 	"bs-signhere-tag-signhere-title": "Unterschriften",
-	"bs-signhere-tag-signhere-desc": "Fügt einen Knopf hinzu, um diese Seite zu unterschreiben"
+	"bs-signhere-tag-signhere-desc": "Fügt einen Knopf hinzu, um diese Seite zu unterschreiben",
+	"bs-signhere-droplet-name": "Unterschrift",
+	"bs-signhere-droplet-description": "Schaltfläche zum Einfügen von Unterschriften im Ansichtsmodus"
 }
