@@ -10,5 +10,7 @@
 	"bs-signhere-tooltip": "Tool tip text for the button provided by the extension",
 	"bs-signhere-arialabel": "Aria-label text for the button provided by the extension",
 	"bs-signhere-tag-signhere-title": "Label for the signhere tag in various dialoges",
-	"bs-signhere-tag-signhere-desc": "Description of the signhere tag in various dialoges"
+	"bs-signhere-tag-signhere-desc": "Description of the signhere tag in various dialoges",
+	"bs-signhere-droplet-name": "Title of droplet for tag SignHere",
+	"bs-signhere-droplet-description": "Description of droplet for tag SignHere"
 }
