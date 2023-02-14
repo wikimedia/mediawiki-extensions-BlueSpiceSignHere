@@ -32,7 +32,15 @@ class SignHere {
 				[
 					'class' => 'bs-signhere-icon'
 				]
-			) . wfMessage( 'bs-signhere-signatures' )->escaped()
+			) . wfMessage( 'bs-signhere-signatures' )->escaped() .
+			\Html::rawElement(
+				'div',
+				[
+					'class' => 'signhere-alert-message',
+					'aria-live' => 'polite',
+					'display' => 'hidden'
+				]
+			)
 		);
 
 		return $html;

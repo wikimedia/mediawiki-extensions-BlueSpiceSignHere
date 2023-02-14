@@ -12,5 +12,6 @@
 	"bs-signhere-tag-signhere-title": "Signatures",
 	"bs-signhere-tag-signhere-desc": "Adds a button to sign this page",
 	"bs-signhere-droplet-name": "Signature",
-	"bs-signhere-droplet-description": "A button to add signatures in view mode"
+	"bs-signhere-droplet-description": "A button to add signatures in view mode",
+	"bs-signhere-anouncement-label": "Signature added"
 }
