@@ -5,7 +5,7 @@
 	"author": [
 		"Robert Vogel"
 	],
-	"url": "https://en.wiki.bluespice.com/wiki/Reference:SignHere",
+	"url": "https://en.wiki.bluespice.com/wiki/Reference:BlueSpiceSignHere",
 	"descriptionmsg": "bs-signhere-desc",
 	"type": "bluespice",
 	"requires": {
