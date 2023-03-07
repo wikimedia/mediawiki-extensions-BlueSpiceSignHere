@@ -10,5 +10,7 @@
 	"bs-signhere-tooltip": "Click here to add your signature above the line",
 	"bs-signhere-arialabel": "Add signature",
 	"bs-signhere-tag-signhere-title": "Signatures",
-	"bs-signhere-tag-signhere-desc": "Adds a button to sign this page"
+	"bs-signhere-tag-signhere-desc": "Adds a button to sign this page",
+	"bs-signhere-droplet-name": "Signature",
+	"bs-signhere-droplet-description": "A button to add signatures in view mode"
 }
