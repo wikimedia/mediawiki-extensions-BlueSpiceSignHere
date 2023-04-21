@@ -56,7 +56,8 @@
 				"ext.blueSpice.signHere.js"
 			],
 			"messages": [
-				"bs-signhere-edit-summary"
+				"bs-signhere-edit-summary",
+				"bs-signhere-anouncement-label"
 			]
 		},
 		"ext.blueSpice.signHere.styles": {
