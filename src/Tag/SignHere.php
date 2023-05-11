@@ -3,7 +3,7 @@
 namespace BlueSpice\SignHere\Tag;
 
 class SignHere {
-	protected static $counter = 0;
+	protected static $counters = [];
 
 	/**
 	 *
@@ -14,6 +14,9 @@ class SignHere {
 	 * @return string
 	 */
 	public function render( $input, $args, $parser, $frame ) {
+		$cnt = self::$counters[spl_object_id($parser)] ?? 0;
+		self::$counters[spl_object_id($parser)] = $cnt + 1;
+
 		$parser->getOutput()->addModuleStyles( [ 'ext.blueSpice.signHere.styles' ] );
 		$parser->getOutput()->addModules( [ 'ext.blueSpice.signHere' ] );
 
@@ -22,7 +25,7 @@ class SignHere {
 			[
 				'class' => 'bs-signhere',
 				'title' => wfMessage( 'bs-signhere-tooltip' )->plain(),
-				'data-bs-counter' => self::$counter++,
+				'data-bs-counter' => $cnt,
 				'tabindex' => '0',
 				'role' => "button",
 				'aria-label' => wfMessage( 'bs-signhere-arialabel' )->plain()

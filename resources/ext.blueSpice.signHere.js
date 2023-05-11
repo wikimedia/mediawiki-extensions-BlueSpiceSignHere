@@ -16,7 +16,7 @@
 				var newContent = content.replace(/<(bs:)?signhere/g, function (fullMatch, group, pos, fullString) {
 					count++;
 
-					if (targetCount !== count) {
+					if ( parseInt( targetCount ) !== count ) {
 						return fullMatch;
 					}
 
