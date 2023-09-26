@@ -43,8 +43,7 @@
 		"BlueSpice\\SignHere\\": "src/"
 	},
 	"Hooks": {
-		"ParserFirstCallInit": "BlueSpice\\SignHere\\Hook\\ParserFirstCallInit::handle",
-		"BSInsertMagicAjaxGetData": "\\BlueSpice\\SignHere\\Hook\\BSInsertMagicAjaxGetData\\SignHere::callback"
+		"ParserFirstCallInit": "BlueSpice\\SignHere\\Hook\\ParserFirstCallInit::handle"
 	},
 	"ResourceFileModulePaths": {
 		"localBasePath": "resources",
