@@ -3,10 +3,10 @@
 namespace BlueSpice\SignHere\Tag;
 
 class SignHere {
+	/** @var array */
 	protected static $counters = [];
 
 	/**
-	 *
 	 * @param string $input
 	 * @param array $args
 	 * @param \Parser $parser
