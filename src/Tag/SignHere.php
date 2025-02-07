@@ -4,6 +4,7 @@ namespace BlueSpice\SignHere\Tag;
 
 use MediaWiki\Html\Html;
 use MediaWiki\Parser\Parser;
+use MediaWiki\Parser\PPFrame;
 
 class SignHere {
 	/** @var array */
@@ -13,7 +14,7 @@ class SignHere {
 	 * @param string $input
 	 * @param array $args
 	 * @param Parser $parser
-	 * @param \PPFrame $frame
+	 * @param PPFrame $frame
 	 * @return string
 	 */
 	public function render( $input, $args, $parser, $frame ) {
