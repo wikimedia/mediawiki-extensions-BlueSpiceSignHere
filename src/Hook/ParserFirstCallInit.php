@@ -2,11 +2,13 @@
 
 namespace BlueSpice\SignHere\Hook;
 
+use MediaWiki\Parser\Parser;
+
 class ParserFirstCallInit {
 
 	/**
 	 *
-	 * @param \Parser &$parser
+	 * @param Parser &$parser
 	 * @return bool
 	 */
 	public static function handle( &$parser ) {
