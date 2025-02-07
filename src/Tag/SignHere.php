@@ -3,6 +3,7 @@
 namespace BlueSpice\SignHere\Tag;
 
 use MediaWiki\Html\Html;
+use MediaWiki\Parser\Parser;
 
 class SignHere {
 	/** @var array */
@@ -11,7 +12,7 @@ class SignHere {
 	/**
 	 * @param string $input
 	 * @param array $args
-	 * @param \Parser $parser
+	 * @param Parser $parser
 	 * @param \PPFrame $frame
 	 * @return string
 	 */
