@@ -73,6 +73,9 @@
 			"messages": [
 				"bs-signhere-tag-signhere-desc",
 				"bs-signhere-tag-signhere-title"
+			],
+			"dependencies": [
+				"ext.bluespice.visualEditorConnector.tags.classes"
 			]
 		}
 	},
