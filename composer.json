@@ -8,7 +8,6 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"BlueSpice\\SignHere\\Tests\\": "tests/phpunit",
 			"BlueSpice\\SignHere\\": "src"
 		}
 	},
