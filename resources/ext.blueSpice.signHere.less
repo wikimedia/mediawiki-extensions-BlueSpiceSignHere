@@ -6,6 +6,7 @@
 	text-align: center;
 	font-style: oblique;
 	cursor: pointer;
+
 	&:hover {
 		color: @bs-color-secondary;
 		border-color: @bs-color-secondary;
@@ -16,7 +17,7 @@
 	display: inline-block;
 	margin-right: 0.1em;
 
-	&:before {
+	&::before {
 		font-family: 'icomoon';
 		content: '\e907';
 		font-size: 120%;
@@ -25,28 +26,53 @@
 }
 
 @-moz-keyframes bs-signhere-spin-anim {
-	from { -moz-transform: rotate( 0deg ); }
-	to { -moz-transform: rotate( 360deg ); }
+	from {
+		-moz-transform: rotate( 0deg );
+	}
+
+	to {
+		-moz-transform: rotate( 360deg );
+	}
 }
 
 @-webkit-keyframes bs-signhere-spin-anim {
-	from { -webkit-transform: rotate( 0deg ); }
-	to { -webkit-transform: rotate( 360deg ); }
+	from {
+		-webkit-transform: rotate( 0deg );
+	}
+
+	to {
+		-webkit-transform: rotate( 360deg );
+	}
 }
 
 @-moz-keyframes bs-signhere-spin-anim {
-	from { -moz-transform: rotate( 0deg ); }
-	to { -moz-transform: rotate( 360deg ); }
+	from {
+		-moz-transform: rotate( 0deg );
+	}
+
+	to {
+		-moz-transform: rotate( 360deg );
+	}
 }
 
 @-o-keyframes bs-signhere-spin-anim {
-	from { -o-transform: rotate( 0deg ); }
-	to { -o-transform: rotate( 360deg ); }
+	from {
+		-o-transform: rotate( 0deg );
+	}
+
+	to {
+		-o-transform: rotate( 360deg );
+	}
 }
 
 @keyframes bs-signhere-spin-anim {
-	from { transform: rotate( 0deg ); }
-	to { transform: rotate( 360deg ); }
+	from {
+		transform: rotate( 0deg );
+	}
+
+	to {
+		transform: rotate( 360deg );
+	}
 }
 
 .bs-signhere-spin {
@@ -54,7 +80,8 @@
 	-moz-animation: bs-signhere-spin-anim 2s infinite linear;
 	-o-animation: bs-signhere-spin-anim 2s infinite linear;
 	animation: bs-signhere-spin-anim 2s infinite linear;
-	&:before {
+
+	&::before {
 		font-family: 'fontawesome';
 		content: '\f1ce';
 	}
