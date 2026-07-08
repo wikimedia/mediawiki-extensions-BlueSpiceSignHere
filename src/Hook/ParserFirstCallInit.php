@@ -7,7 +7,6 @@ use MediaWiki\Parser\Parser;
 class ParserFirstCallInit {
 
 	/**
-	 *
 	 * @param Parser &$parser
 	 * @return bool
 	 */
